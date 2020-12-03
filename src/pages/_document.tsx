@@ -49,6 +49,11 @@ export default class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
             rel="stylesheet"
           />
+
+          <link
+            rel="shortcut icon"
+            href="https://avatars2.githubusercontent.com/u/46056744?s=460&u=9ec6832de10df4f37abcdd519bd67391e8876f2e&v=4"
+          />
         </Head>
         <body>
           <Main />
