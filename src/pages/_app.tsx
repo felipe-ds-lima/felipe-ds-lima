@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { AppProps } from 'next/dist/next-server/lib/router/router'
+
 import { ThemeProvider } from 'styled-components'
 
 import GlobalStyles from '../styles/global'
