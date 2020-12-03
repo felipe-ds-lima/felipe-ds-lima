@@ -1,8 +1,3 @@
----
-title: Felipe D S Lima
-author: Felipe D S Lima
----
-
 ### Hi there, I'm Felipe Lima, welcome to my profile 👋
 - ⚡ I'm a Frontend and Backend developer! A FullStack.
 - 🔭 I’m currently working on PromptD_99 Project.
