@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "@felipe-ds-lima/eslint-config/react-config"
+  ],
+  "parserOptions": {
+    "project": "tsconfig.json"
+  },
+  "rules": {
+    "@next/next/no-html-link-for-pages": ["error", "./src/app/"]
+  }
+}
