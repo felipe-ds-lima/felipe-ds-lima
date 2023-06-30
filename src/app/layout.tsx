@@ -1,4 +1,6 @@
-import './globals.css'
+import { Layout } from '@/components/layouts/DefaultLayout'
+import { Loading } from '@/components/layouts/DefaultLayout/Loading'
+import { GlobalStyle } from '@/styles/global'
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,8 +13,12 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="pt-BR">
+      <body style={{ overflow: 'hidden' }}>
+        <Loading />
+        <GlobalStyle />
+        <Layout>{children}</Layout>
+      </body>
     </html>
   )
 }

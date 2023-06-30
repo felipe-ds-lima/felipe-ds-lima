@@ -7,6 +7,7 @@
     "project": "tsconfig.json"
   },
   "rules": {
-    "@next/next/no-html-link-for-pages": ["error", "./src/app/"]
+    "@next/next/no-html-link-for-pages": ["error", "./src/app/"],
+    "@typescript-eslint/strict-boolean-expressions": "off"
   }
 }
