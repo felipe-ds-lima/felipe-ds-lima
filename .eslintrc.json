@@ -6,6 +6,7 @@
   "parserOptions": {
     "project": "tsconfig.json"
   },
+  "ignorePatterns": ["*.js"],
   "rules": {
     "@next/next/no-html-link-for-pages": ["error", "./src/app/"],
     "@typescript-eslint/strict-boolean-expressions": "off"
