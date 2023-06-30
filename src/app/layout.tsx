@@ -14,6 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
+      <head>
+        <title>Felipe D. S. Lima</title>
+      </head>
       <body style={{ overflow: 'hidden' }}>
         <Loading />
         <GlobalStyle />
